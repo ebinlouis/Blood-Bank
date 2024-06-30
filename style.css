@@ -123,3 +123,80 @@
     border-radius: 15px;
     cursor: pointer;
 }
+
+.next-container {
+    padding: 50px 250px;
+}
+
+.next-container h1 {
+    font-family: 'Libre Baskerville';
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+    font-size: 44px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    /* background-color: aqua; */
+}
+
+.logo-container .content-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 80px;
+    /* width: 500px; */
+    /* margin-right: 100px; */
+    /* margin-left: 50px; */
+}
+
+.logo-container .content-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 80px;
+    /* width: 500px; */
+    /* margin-right: 100px; */
+    /* margin-left: 50px; */
+}
+
+.logo-container .content-1 img {
+    width: 250px;
+    /* margin-bottom: 46px; */
+}
+
+.logo-container .content-2 img {
+    width: 250px;
+    /* margin-bottom: 46px; */
+}
+
+.content-1 p {
+    font-family: 'Open Sans';
+    font-size: calc(14px);
+    font-weight: 400;
+    font-style: italic;
+    padding-right: 10px;
+    /* width: 443px; */
+}
+
+.content-2 p {
+    font-family: 'Open Sans';
+    font-size: calc(14px);
+    font-weight: 400;
+    font-style: italic;
+    padding-right: 10px;
+}
+
+.next-container p {
+    margin-top: 47px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 21.79px;
+    font-size: 14px;
+}
