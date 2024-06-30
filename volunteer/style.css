@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+body {
+    background-color: #d9d9d9;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #d9d9d9;
+}
+
+.navbar {
+    width: 100%;
+    height: 12vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 250px;
+    align-items: center;
+}
+
+.active {
+    color: #aa0113;
+}
+
+.nav-links .active::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: '';
+    margin-left: 3.5px;
+    margin-bottom: -5px;
+    height: 2px;
+    color: #aa0113;
+    background-color: #aa0113;
+    width: 69px;
+}
+
+.nav-links #volunteer {
+    position: relative;
+}
+
+.left-section h1 {
+    color: #aa0113;
+    font-weight: bold;
+    font-size: calc(30px);
+}
+
+.nav-links ul li {
+    list-style: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.nav-links ul {
+    display: flex;
+}
+
+.right-section button {
+    padding: 15px 30px;
+    background-color: #aa0113;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: calc(19px * 0.8);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.hero-section {
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    padding: 50px 250px;
+}
+
+.main-container {
+    padding: 50px 250px;
+}
+
+.main-container .content h1 {
+    font-size: calc(32px);
+    font-weight: 700;
+    line-height: 42.98px;
+}
+
+.main-container .content p {
+    margin-top: 19px;
+    font-size: 15px;
+    line-height: 21.79px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 31px;
+}
+
+.card {
+    background-color: #fff;
+    margin-right: 24px;
+    border-radius: 10px;
+    width: 243px;
+    padding: 16px;
+}
+
+.cards .card img {
+    width: 100%;
+}
+
+.card .main {
+    font-size: 14px;
+    font-family: 'Inter';
+    margin-top: 16px;
+}
+
+.card .name {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Inter';
+    margin-top: 8px;
+}
+
+.card .department {
+    font-size: 13px;
+    font-weight: normal;
+    font-family: 'Inter';
+    color: #757575;
+    margin-top: 8px;
+}

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #d9d9d9;
+}
+
+.navbar {
+    width: 100%;
+    height: 12vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 250px;
+    align-items: center;
+}
+
+.active {
+    color: #aa0113;
+}
+
+.nav-links .active::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: '';
+    margin-left: 3.5px;
+    margin-bottom: -5px;
+    height: 2px;
+    color: #aa0113;
+    background-color: #aa0113;
+    width: 40px;
+}
+
+.nav-links #home {
+    position: relative;
+}
+
+.nav-links ul li {
+    list-style: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.left-section h1 {
+    color: #aa0113;
+    font-weight: bold;
+    font-size: calc(30px);
+}
+
+.nav-links ul {
+    display: flex;
+}
+
+.right-section button {
+    padding: 15px 30px;
+    background-color: #aa0113;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: calc(19px * 0.8);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.hero-section {
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    padding: 50px 250px;
+}
+
+.left-container {
+    /* background-color: aqua; */
+    width: 100%;
+}
+
+.left-container .heading {
+    font-size: 26px;
+}
+
+.left-container .para {
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 23px;
+}
+
+.left-container .btn-container {
+    margin-top: 26px;
+}
+
+.btn-container .join {
+    padding: 15px 30px;
+    background-color: #aa0113;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: calc(19px * 0.8);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn-container .contact {
+    padding: 15px 30px;
+    margin-left: 24px;
+    background-color: transparent;
+    border: 1px solid #aa0113;
+    color: #aa0113;
+    font-weight: bold;
+    font-size: calc(19px * 0.8);
+    border-radius: 15px;
+    cursor: pointer;
+}
