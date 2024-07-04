@@ -87,11 +87,13 @@
 
 .hamburger-menu {
     outline: none;
+    user-select: none;
 }
 
 .hamburger-menu img {
     cursor: pointer;
     outline: none;
+    user-select: none;
 }
 
 .mobile-hamburger-menu .menu {
