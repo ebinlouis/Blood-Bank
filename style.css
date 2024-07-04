@@ -23,6 +23,12 @@
     align-items: center;
 }
 
+.navbar .left-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .active {
     color: #aa0113;
 }
@@ -89,12 +95,20 @@
 
 .left-container .heading {
     font-size: 26px;
+    width: 82%;
+    /* background-color: aqua; */
 }
 
 .left-container .para {
     font-size: 16px;
     font-style: italic;
     margin-top: 23px;
+    width: 82%;
+    /* background-color: aqua; */
+}
+
+.para p {
+    text-align: justify;
 }
 
 .left-container .btn-container {
@@ -199,4 +213,87 @@
     font-style: italic;
     line-height: 21.79px;
     font-size: 14px;
+}
+
+/* Responsive Design For Navbar */
+
+@media (min-width: 319px) and (max-width: 864px) {
+    .navbar .nav-links,
+    .right-section {
+        display: none;
+    }
+
+    .navbar {
+        justify-content: start;
+    }
+
+    .hero-section {
+        padding: 50px 10px;
+    }
+}
+
+@media (min-width: 865px) and (max-width: 896px) {
+    .navbar {
+        padding: 50px 10px;
+    }
+
+    .hero-section {
+        padding: 50px 10px;
+    }
+
+    .hero-section .left-container .heading h1 {
+    }
+}
+
+@media (min-width: 897px) and (max-width: 956px) {
+    .navbar {
+        padding: 50px 25px;
+    }
+
+    .hero-section {
+        padding: 50px 25px;
+    }
+}
+
+@media (min-width: 957px) and (max-width: 1043px) {
+    .navbar {
+        padding: 50px 50px;
+    }
+
+    .hero-section {
+        padding: 50px 50px;
+    }
+}
+
+@media (min-width: 1044px) and (max-width: 1145px) {
+    .navbar {
+        padding: 50px 100px;
+    }
+
+    .hero-section {
+        padding: 50px 100px;
+    }
+}
+
+@media (min-width: 1146px) and (max-width: 1244px) {
+    .navbar {
+        padding: 50px 150px;
+    }
+
+    .hero-section {
+        padding: 50px 150px;
+    }
+}
+
+@media (min-width: 1245px) and (max-width: 1600px) {
+    .navbar {
+        padding: 50px 200px;
+    }
+
+    .hero-section {
+        padding: 50px 200px;
+    }
+}
+
+@media (min-width: 1601px) {
 }
