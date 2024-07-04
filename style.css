@@ -85,8 +85,13 @@
     justify-content: center;
 }
 
+.hamburger-menu {
+    outline: none;
+}
+
 .hamburger-menu img {
     cursor: pointer;
+    outline: none;
 }
 
 .mobile-hamburger-menu .menu {
